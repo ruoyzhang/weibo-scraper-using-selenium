@@ -1,0 +1,56 @@
+1554985805891	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.n6QxGd922VjX"
+1554985810589	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554985810589	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554985810589	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554985812715	Marionette	INFO	Listening on port 57943
+1554985854603	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.bouuvfRxZ7HU"
+1554985855136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554985855136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554985855136	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554985856591	Marionette	INFO	Listening on port 58033
+1554985856697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554985892531	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.RAAYy42u5BIf"
+1554985893057	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554985893058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554985893058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554985894621	Marionette	INFO	Listening on port 58087
+1554985894685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1554985906939	Marionette	INFO	Stopped listening on port 58087
+1554985908956	Marionette	INFO	Stopped listening on port 58033
+1554986013685	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.YE6EaCMN0NUU"
+1554986014201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554986014202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554986014202	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554986015636	Marionette	INFO	Listening on port 58193
+1554986015656	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://passport.sinaimg.cn/js/sso/signup/common.js, line 11: unreachable code after return statement
+JavaScript warning: https://passport.sinaimg.cn/js/sso/cardtips.js, line 156: unreachable code after return statement
+JavaScript warning: https://passport.sinaimg.cn/js/sso/cardtips.js, line 156: unreachable code after return statement
+JavaScript warning: https://passport.sinaimg.cn/js/sso/signup/common.js, line 11: unreachable code after return statement
+JavaScript error: http://my.sina.com.cn/js/my/weather.js, line 26: ReferenceError: remote_ip_info is not defined
+JavaScript error: http://beacon.sina.com.cn/h.js, line 1: ReferenceError: etag_ngx_str is not defined
+1554986602243	Marionette	INFO	Stopped listening on port 57943
+1554987360075	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.8Tmz8nEooyNu"
+1554987360509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1554987360509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1554987360509	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1554987361877	Marionette	INFO	Listening on port 59465
+1554987361926	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://passport.sinaimg.cn/js/sso/signup/common.js, line 11: unreachable code after return statement
+JavaScript warning: https://passport.sinaimg.cn/js/sso/cardtips.js, line 156: unreachable code after return statement
+JavaScript warning: https://passport.sinaimg.cn/js/sso/cardtips.js, line 156: unreachable code after return statement
+JavaScript warning: https://passport.sinaimg.cn/js/sso/signup/common.js, line 11: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
