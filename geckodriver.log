@@ -54,3 +54,6 @@ JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboF
 JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
 JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
 JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
+JavaScript error: resource://gre/actors/SelectChild.jsm, line 80: TypeError: this.element is null
