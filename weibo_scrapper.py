@@ -126,7 +126,7 @@ class weibo_scrapper():
 
 #-------------------------------------------------------------------------------------
 
-	def scrape(self, begin_date, end_date, search_keyword):
+	def scrape(self, begin_date, end_date, search_keyword, max_page):
 		"""
 		The scrapping method
 
@@ -134,6 +134,7 @@ class weibo_scrapper():
 								they have to be in the format of "YYYY-MM-DD"
 								as is conventional in the Chinese writting sys
 		search_keyword: the keyword used for Weibo advanced search
+		max_page: the max number of pages from which we srape data off, must be greater than 1
 		"""
 
 		# parsing year, month and day for the 2 date variables
@@ -209,9 +210,9 @@ class weibo_scrapper():
 		# a loop for all the result pages
 		# first determine the total number of pages (usually 50 but just in case)
 		dropdown_page = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/span/ul[@node-type='feed_list_page_morelist']/li")
-		num_pg = len(dropdown_page)
+		num_pg = min(len(dropdown_page), max_page)
 
-		print('there are ', str(num_pg), ' of results')
+		print('there are ', str(num_pg), ' of results, the scraper will aquire tweets of the first', str(max_page), 'pages')
 
 		# storage variables for the tweets and dates
 		all_tweets = []
@@ -220,7 +221,7 @@ class weibo_scrapper():
 		print('now scrapping ...')
 
 		# now loop
-		for i in range(num_pg - 1):
+		for i in range(num_pg):
 
 			# now get the tweets
 			tweets = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='txt' and @node-type='feed_list_content']")
@@ -247,8 +248,9 @@ class weibo_scrapper():
 
 			print('page ', str(i+1), ' complete')
 
-			# go to the next page
-			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
+			# go to the next page if not at page 50 or the final page
+			if i < num_pg - 1:
+				self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
 
 			# wait again
 			time.sleep(2)

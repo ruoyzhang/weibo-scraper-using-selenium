@@ -1199,3 +1199,142 @@ JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboF
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1555523146404	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.HCmyTmq6xEVG"
+1555523146931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555523146931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555523146931	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555523148490	Marionette	INFO	Listening on port 57943
+1555523148556	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1555523221967	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.B0Upbkyw6MJi"
+1555523222493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555523222493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555523222493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555523224288	Marionette	INFO	Listening on port 57997
+1555523224330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 88721, MediaPlayback #1] WARNING: Decoder=185314800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 88721, MediaPlayback #1] WARNING: Decoder=185314800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555523626612	Marionette	INFO	Stopped listening on port 57997
+1555523629426	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.lEoyBt3N2Uya"
+1555523629880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555523629880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555523629880	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555523631875	Marionette	INFO	Listening on port 58377
+1555523631881	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555523667590	Marionette	INFO	Stopped listening on port 58377
+1555523670823	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.YDS2QJpwZtmb"
+1555523671328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555523671328	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555523671329	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555523673110	Marionette	INFO	Listening on port 58430
+1555523673199	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+1555523686117	Marionette	INFO	Stopped listening on port 58430
+1555523700372	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.zFPylPyRe3ep"
+1555523700846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555523700846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555523700846	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555523702318	Marionette	INFO	Listening on port 58556
+1555523702332	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 89282, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+1555523749682	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.QhqLzjaOs6nO"
+1555523750107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555523750107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555523750107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555523751931	Marionette	INFO	Listening on port 58734
+1555523751942	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1555524310866	Marionette	INFO	Stopped listening on port 58734
+1555524324072	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.etfUj6Z3oL3Y"
+1555524324994	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555524324994	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555524324995	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555524326954	Marionette	INFO	Listening on port 59065
+1555524327054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
