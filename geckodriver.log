@@ -751,3 +751,10 @@ console.error: "getGrids@resource://devtools/server/actors/layout.js:455:11\nget
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1555507964415	Marionette	INFO	Stopped listening on port 62930
+1555508016923	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.cNyYj470Ckz6"
+1555508017371	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555508017372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555508017372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555508018868	Marionette	INFO	Listening on port 65208
+1555508018969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555508020145	Marionette	INFO	Stopped listening on port 65092

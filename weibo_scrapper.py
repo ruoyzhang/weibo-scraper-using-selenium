@@ -93,27 +93,27 @@ class weibo_scrapper():
 			print("https://www.weibo.com/login.php")
 
 			# gavigate to the appropriate page
-			driver.get("https://www.weibo.com/login.php")
+			self.driver.get("https://www.weibo.com/login.php")
 			time.sleep(5)
 
 			# click on the login button
-			driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/div/ul/li/a[@node-type='loginBtn']").send_keys(Keys.RETURN)
+			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/div/ul/li/a[@node-type='loginBtn']").send_keys(Keys.RETURN)
 			time.sleep(3)
 
 			print('inputting username and password')
 
 			# inputting username
-			elem_user = driver.find_element_by_xpath("/html/body/div/div/div/div/div/input[@node-type='username']")
+			elem_user = self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/input[@node-type='username']")
 			elem_user.clear()
 			elem_user.send_keys(username)
 
 			# inputting password
-			elem_pwd = driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[3]/div[3]/div[2]/input")
+			elem_pwd = self.driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[3]/div[3]/div[2]/input")
 			elem_pwd.clear()
 			elem_pwd.send_keys(password)
 
 			# click on the login button
-			driver.find_element_by_xpath("/html/body/div/div/div/div/div/a[@node-type='submitBtn']").click()
+			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/a[@node-type='submitBtn']").click()
 
 			print('login successful')
 
