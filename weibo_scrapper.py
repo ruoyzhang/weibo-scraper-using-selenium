@@ -29,33 +29,15 @@ import pickle
 
 class weibo_scrapper():
 
-	def __init__(self, begin_date, end_date, username, password, search_keyword, save_dir):
+	def __init__(self, username, password, save_dir):
 		"""
-		begin_date & end_date: date limits for the research results,
-								they have to be in the format of "YYYY-MM-DD"
-								as is conventional in the Chinese writting sys
 		username & password: user authentication
-		search_keyword: the keyword used for Weibo advanced search
 		save_dir: directory for where we want to save the srapped data
 		"""
 
 		# storing vars as class vars
-		self.begin_date = str(begin_date)
-		self.end_date = end_date
 		self.username = username
 		self.password = password
-		self.keyword = search_keyword
-
-		# parsing year, month and day for the 2 date variables
-		# begin date
-		self.begin_year = str(int(begin_date.split('-')[0]))
-		self.begin_month = str(int(begin_date.split('-')[1])-1)
-		self.begin_day = str(int(begin_date.split('-')[2]))
-
-		# end date
-		self.end_year = str(int(end_date.split('-')[0]))
-		self.end_month = str(int(end_date.split('-')[1])-1)
-		self.end_day = str(int(end_date.split('-')[2]))
 
 		# setting up the driver as a class method I guess?
 		self.driver = webdriver.Firefox()
@@ -101,15 +83,26 @@ class weibo_scrapper():
 
 #-------------------------------------------------------------------------------------
 
-	def scrape(self):
+	def scrape(self, begin_date, end_date, search_keyword):
 		"""
 		The scrapping method
+
+		begin_date & end_date: date limits for the research results,
+								they have to be in the format of "YYYY-MM-DD"
+								as is conventional in the Chinese writting sys
+		search_keyword: the keyword used for Weibo advanced search
 		"""
 
-		print('logging into Sina')
+		# parsing year, month and day for the 2 date variables
+		# begin date
+		begin_year = str(int(begin_date.split('-')[0]))
+		begin_month = str(int(begin_date.split('-')[1])-1)
+		begin_day = str(int(begin_date.split('-')[2]))
 
-		# log into Sina
-		self.Login_Weibo()
+		# end date
+		end_year = str(int(end_date.split('-')[0]))
+		end_month = str(int(end_date.split('-')[1])-1)
+		end_day = str(int(end_date.split('-')[2]))
 
 		print('navigating to Weibo adv search page')
 
@@ -125,7 +118,7 @@ class weibo_scrapper():
 
 		# input the search key and hit enter in order to advance to the advanced search interface
 		item_inp = self.driver.find_element_by_xpath("//input[@type='text']")
-		item_inp.send_keys(self.keyword)
+		item_inp.send_keys(search_keyword)
 		item_inp.send_keys(Keys.RETURN)
 
 		# waiting
@@ -139,28 +132,28 @@ class weibo_scrapper():
 
 		# below for instructing selenium to select the right **YEAR** value
 		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']").click()
-		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']/option[@value={}]".format(self.begin_year)).click()
+		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']/option[@value={}]".format(begin_year)).click()
 
 		# below for instructing selenium to select the right **MONTH** value
 		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='month']").click()
-		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='month']/option[@value={}]".format(self.begin_month)).click()
+		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='month']/option[@value={}]".format(begin_month)).click()
 
 		# below for instructing selenium to select the right **DAY** value
-		self.driver.find_element_by_xpath("//ul[@class='days']/li/a[@title='{}']".format(self.begin_date)).click()
+		self.driver.find_element_by_xpath("//ul[@class='days']/li/a[@title='{}']".format(begin_date)).click()
 
 		# the below section is for selecting the right end date
 		self.driver.find_element_by_xpath("//dd/input[@value='请选择日期'][2]").click()
 
 		# end **YEAR**
 		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']").click()
-		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']/option[@value={}]".format(self.end_year)).click()
+		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']/option[@value={}]".format(end_year)).click()
 
 		# end **MONTH**
 		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='month']").click()
-		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='month']/option[@value={}]".format(self.end_month)).click()
+		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='month']/option[@value={}]".format(end_month)).click()
 
 		# end **DAY**
-		self.driver.find_element_by_xpath("//ul[@class='days']/li/a[@title='{}']".format(self.end_date)).click()
+		self.driver.find_element_by_xpath("//ul[@class='days']/li/a[@title='{}']".format(end_date)).click()
 
 		# click on the 'search' button
 		self.driver.find_element_by_xpath("//div[@class='m-adv-search']/div[@class='btn-box']/a[@class='s-btn-a']").click()
