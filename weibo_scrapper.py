@@ -44,7 +44,7 @@ class weibo_scrapper():
 
 #-------------------------------------------------------------------------------------
 
-	def login_Sina(self):
+	def login_sina(self):
 		"""
 		function used to log into Sina
 		"""
@@ -83,7 +83,7 @@ class weibo_scrapper():
 
 #-------------------------------------------------------------------------------------
 
-	def login_weibo():
+	def login_weibo(self):
 		"""
 		function used to log into Weibo
 		"""
