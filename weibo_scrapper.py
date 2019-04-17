@@ -44,9 +44,9 @@ class weibo_scrapper():
 
 #-------------------------------------------------------------------------------------
 
-	def Login_Weibo(self):
+	def login_Sina(self):
 		"""
-		function used to log into Weibo
+		function used to log into Sina
 		"""
 		try:
 			# inputting username and password
@@ -57,8 +57,8 @@ class weibo_scrapper():
 			elem_pwd = self.driver.find_element_by_name("password")
 			elem_pwd.send_keys(self.password)
 
-			# IMPORTANT: a temporary pause of 20s to bypass graphic verification
-			time.sleep(20)
+			# IMPORTANT: a temporary pause of 10s to bypass graphic verification
+			time.sleep(10)
 
 			# now login via the enter key
 			elem_pwd.send_keys(Keys.RETURN)
@@ -72,6 +72,48 @@ class weibo_scrapper():
 			#for cookie in self.driver.get_cookies():
 			#	for key in cookie:
 			#		print(key, cookie[key])
+
+			print('login successful')
+
+		# handle exceptions and printing out error in case
+		except Exception as e:
+			print("Error: ", e)
+		finally:
+			print('End of login')
+
+#-------------------------------------------------------------------------------------
+
+	def login_weibo():
+		"""
+		function used to log into Weibo
+		"""
+
+		try:
+
+			print("https://www.weibo.com/login.php")
+
+			# gavigate to the appropriate page
+			driver.get("https://www.weibo.com/login.php")
+			time.sleep(5)
+
+			# click on the login button
+			driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/div/ul/li/a[@node-type='loginBtn']").send_keys(Keys.RETURN)
+			time.sleep(3)
+
+			print('inputting username and password')
+
+			# inputting username
+			elem_user = driver.find_element_by_xpath("/html/body/div/div/div/div/div/input[@node-type='username']")
+			elem_user.clear()
+			elem_user.send_keys(username)
+
+			# inputting password
+			elem_pwd = driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[3]/div[3]/div[2]/input")
+			elem_pwd.clear()
+			elem_pwd.send_keys(password)
+
+			# click on the login button
+			driver.find_element_by_xpath("/html/body/div/div/div/div/div/a[@node-type='submitBtn']").click()
 
 			print('login successful')
 
