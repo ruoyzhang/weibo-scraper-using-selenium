@@ -90,7 +90,7 @@ class weibo_scrapper():
 
 		try:
 
-			print("https://www.weibo.com/login.php")
+			print("loading 'https://www.weibo.com/login.php'")
 
 			# gavigate to the appropriate page
 			self.driver.get("https://www.weibo.com/login.php")
@@ -98,7 +98,7 @@ class weibo_scrapper():
 
 			# click on the login button
 			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/div/ul/li/a[@node-type='loginBtn']").send_keys(Keys.RETURN)
-			time.sleep(3)
+			time.sleep(5)
 
 			print('inputting username and password')
 
