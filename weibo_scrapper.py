@@ -210,6 +210,8 @@ class weibo_scrapper():
 		dropdown_page = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/span/ul[@node-type='feed_list_page_morelist']/li")
 		num_pg = len(dropdown_page)
 
+		print('there are ', str(num_pg), ' of results')
+
 		# storage variables for the tweets and dates
 		all_tweets = []
 		all_dates = []
@@ -248,7 +250,7 @@ class weibo_scrapper():
 			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
 
 			# wait again
-			time.sleep(5)
+			time.sleep(1)
 
 		print('all pages scrapped, now saving ...')
 
