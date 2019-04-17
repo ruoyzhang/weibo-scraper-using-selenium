@@ -230,7 +230,7 @@ class weibo_scrapper():
 
 			# trying to convert string to datetime format
 			# first, replace the chinese characters
-			dates = [date.text.split(' ')[0].replace('年', ' ').replace('月', ' ').replace('日', '') for date in item_tweet_dates]
+			dates = [date.text.split(' ')[0].replace('年', ' ').replace('月', ' ').replace('日', '') for date in dates]
 
 			# then add year if necessary
 			dates = ['2019 ' + date if len(date) == 5 else date for date in dates]
