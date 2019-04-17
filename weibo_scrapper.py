@@ -251,7 +251,7 @@ class weibo_scrapper():
 			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
 
 			# wait again
-			time.sleep(1)
+			time.sleep(2)
 
 		print('all pages scrapped, now saving ...')
 
