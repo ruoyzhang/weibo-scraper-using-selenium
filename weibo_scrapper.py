@@ -38,6 +38,7 @@ class weibo_scrapper():
 		# storing vars as class vars
 		self.username = username
 		self.password = password
+		self.save_dir = save_dir
 
 		# setting up the driver as a class method I guess?
 		self.driver = webdriver.Firefox()
@@ -255,10 +256,10 @@ class weibo_scrapper():
 		print('all pages scrapped, now saving ...')
 
 		# save the results as pickles
-		with open(os.path.join(save_dir, '_'.join([self.end_day, self.end_month, self.end_year, 'text.pickle'])), 'wb') as handle:
+		with open(os.path.join(self.save_dir, '_'.join([self.end_day, self.end_month, self.end_year, 'text.pickle'])), 'wb') as handle:
 			pickle.dump(all_tweets, handle)
-		with open(os.path.join(save_dir, '_'.join([self.end_day, self.end_month, self.end_year, 'date.pickle'])), 'wb') as handle:
+		with open(os.path.join(self.save_dir, '_'.join([self.end_day, self.end_month, self.end_year, 'date.pickle'])), 'wb') as handle:
 			pickle.dump(all_dates, handle)
 
-		print('save complete, files can be found at: ', save_dir)
+		print('save complete, files can be found at: ', self.save_dir)
 
