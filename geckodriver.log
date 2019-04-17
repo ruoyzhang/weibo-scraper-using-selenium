@@ -768,3 +768,20 @@ console.error: "getGrids@resource://devtools/server/actors/layout.js:455:11\nget
 JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
 JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
 JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+1555508165782	Marionette	INFO	Stopped listening on port 65328
+1555508168980	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.bAlo1dWWAvH3"
+1555508169456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555508169456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555508169456	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555508171077	Marionette	INFO	Listening on port 65487
+1555508171136	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=17, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+1555508245424	Marionette	INFO	Stopped listening on port 65487

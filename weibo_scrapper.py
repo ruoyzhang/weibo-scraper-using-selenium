@@ -105,12 +105,12 @@ class weibo_scrapper():
 			# inputting username
 			elem_user = self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/input[@node-type='username']")
 			elem_user.clear()
-			elem_user.send_keys(username)
+			elem_user.send_keys(self.username)
 
 			# inputting password
 			elem_pwd = self.driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[3]/div[3]/div[2]/input")
 			elem_pwd.clear()
-			elem_pwd.send_keys(password)
+			elem_pwd.send_keys(self.password)
 
 			# click on the login button
 			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/a[@node-type='submitBtn']").click()
