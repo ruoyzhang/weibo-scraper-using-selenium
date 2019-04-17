@@ -207,7 +207,7 @@ class weibo_scrapper():
 
 		# a loop for all the result pages
 		# first determine the total number of pages (usually 50 but just in case)
-		dropdown_page = driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/span/ul[@node-type='feed_list_page_morelist']/li")
+		dropdown_page = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/span/ul[@node-type='feed_list_page_morelist']/li")
 		num_pg = len(dropdown_page)
 
 		# storage variables for the tweets and dates
@@ -220,13 +220,13 @@ class weibo_scrapper():
 		for i in range(num_pg - 1):
 
 			# now get the tweets
-			tweets = driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='txt' and @node-type='feed_list_content']")
+			tweets = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='txt' and @node-type='feed_list_content']")
 
 			# retrieve only the text
 			tweets = [tweet.text for tweet in tweets]
 
 			# # the below extracts date
-			dates = driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='from']")
+			dates = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='from']")
 
 			# trying to convert string to datetime format
 			# first, replace the chinese characters
@@ -245,7 +245,7 @@ class weibo_scrapper():
 			print('page ', str(i+1), ' complete')
 
 			# go to the next page
-			driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
+			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
 
 			# wait again
 			time.sleep(8)
