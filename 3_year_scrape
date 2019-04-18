@@ -3,7 +3,7 @@ import datetime
 import time
 
 # specifying the variables used for testing
-starting_date = datetime.datetime.strptime('15-08-2016', '%d-%m-%Y')
+starting_date = datetime.datetime.strptime('08-09-2016', '%d-%m-%Y')
 end_date = datetime.datetime.strptime('17-04-2017', '%d-%m-%Y')
 username = 'ruoyzhang@outlook.com'
 password = 'Cyfloel1.1.'
@@ -17,7 +17,7 @@ scrape_this = weibo_scrapper(username=username, password=password, save_dir=save
 
 # log in
 scrape_this.login_weibo()
-time.sleep(10)
+time.sleep(20)
 
 # looping through the days
 total_time = 0
