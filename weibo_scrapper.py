@@ -258,9 +258,9 @@ class weibo_scrapper():
 		print('all pages scrapped, now saving ...')
 
 		# save the results as pickles
-		with open(os.path.join(self.save_dir, '_'.join([end_day, end_month, end_year, 'text.pickle'])), 'wb') as handle:
+		with open(os.path.join(self.save_dir, '_'.join([end_day, str(int(end_month)+1), end_year, 'text.pickle'])), 'wb') as handle:
 			pickle.dump(all_tweets, handle)
-		with open(os.path.join(self.save_dir, '_'.join([end_day, end_month, end_year, 'date.pickle'])), 'wb') as handle:
+		with open(os.path.join(self.save_dir, '_'.join([end_day, str(int(end_month)+1), end_year, 'date.pickle'])), 'wb') as handle:
 			pickle.dump(all_dates, handle)
 
 		print('save complete, files can be found at: ', self.save_dir)
