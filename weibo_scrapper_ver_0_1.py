@@ -12,11 +12,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
-from datetime import datetime
+import datetime
 from tqdm import tqdm
 import pickle
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
+from math import floor
 
 #-------------------------------------------------------------------------------------
 # ||||||||||||||||||||||||||||||||||||||||||||||||
@@ -234,7 +235,7 @@ class weibo_scraper():
 		kw.send_keys(search_keyword)
 
 		# below for instructing selenium to click on the 'time' input field
-		self.driver.find_element_by_xpath("//dd/input[@value='请选择日期'][1]").click()
+		self.driver.find_element_by_xpath("//dd/input[@name='stime']").click()
 
 		# below for instructing selenium to select the right **YEAR** value
 		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']").click()
@@ -248,7 +249,7 @@ class weibo_scraper():
 		self.driver.find_element_by_xpath("//ul[@class='days']/li/a[@title='{}']".format(begin_date)).click()
 
 		# the below section is for selecting the right end date
-		self.driver.find_element_by_xpath("//dd/input[@value='请选择日期'][2]").click()
+		self.driver.find_element_by_xpath("//dd/input[@name='etime']").click()
 
 		# end **YEAR**
 		self.driver.find_element_by_xpath("//div[@class='selector']/select[@class='year']").click()
@@ -298,7 +299,7 @@ class weibo_scraper():
 		dates = ['2019 ' + date if len(date) == 5 else date for date in dates]
 
 		# then we convert it to datetime format
-		dates = [datetime.strptime(date, '%Y %m %d') for date in dates]
+		dates = [datetime.datetime.strptime(date, '%Y %m %d') for date in dates]
 
 		# storing them in class variables
 		self.current_tweets = tweets
@@ -362,17 +363,130 @@ class weibo_scraper():
 #-------------------------------------------------------------------------------------
 
 
-	def scrape_over_period(self, begin_date, end_date, search_keyword, num_pg):
+	def scrape_over_period(self, begin_date, end_date, search_keyword, window_size, num_pg, save = False, save_dir = '/data'):
 		"""
-		The scrapping method
+		The scrapping method for one single search keyword divided into multiple queries, each covering the same window size in terms of time (usually number of days)
+		this method will allow the user to scrape results organised in the following form:
+		*************************
+		
+		begin_date --------------------------------------------------------------> end_date
+
+		   period 0	  	      period 1	  		 period 2 	  	   ...    period n
+		|<---------------->|<---------------->|<---------------->| ... |<---------------->|
+		| multi-pg scrape 0|multi-pg scrape 1 |multi-pg scrape 2 | ... |multi-pg scrape n |
+
+		*************************
+
+		where each multi-pg scrape contains tweets from a subperiod of the predefined window size
 
 		begin_date & end_date: date limits for the research results,
 								they have to be in the format of "YYYY-MM-DD"
 								as is conventional in the Chinese writting sys
-		search_keyword: the keyword used for Weibo advanced search
-		max_page: the max number of pages from which we srape data off, must be greater than 1
+		search_keyword: the keyword used for Weibo advanced search, also used in this function to name the results
+		window_size: the number of consecutive days covered in one single query
+		num_pg: the max number of pages from which we srape data off, must be greater than 1
+		save: boolean, optional, indicates to the function whether the results are saved per query or not
+		save_dir: directory to store the data, optional and by default '/data'
 		"""
 
-		# parsing year, month and day for the 2 date variables
-		# begin date
-		pass
+		# converting dates to datetime format
+		begin_date = datetime.datetime.strptime(begin_date, '%Y-%m-%d')
+		end_date = datetime.datetime.strptime(end_date, '%Y-%m-%d')
+
+		# calculating the total number of days and how many iterations we need
+		num_days = (end_date - begin_date).days + 1
+		if num_days % window_size > 0:
+			num_periods = floor(num_days / window_size) + 1
+		else:
+			num_periods = int(num_days / window_size)
+
+		# routine search query launch
+		self.advanced_search()
+
+
+		begin_time = time.time()
+		tweet_count = 0
+		date_count = 0
+
+		# now loop through all the periods
+		for i in range(num_periods):
+
+			# determining the begin and end dates for the period
+			date_0 = begin_date + datetime.timedelta(days = i * window_size)
+			# specify for the final period
+			if i != num_periods - 1:
+				date_1 = date_0 + datetime.timedelta(window_size - 1)
+			else:
+				date_1 = end_date
+
+			# converting the dates into the right str format
+			date_0 = "-".join([str(int(elem)) for elem in str(date_0.date()).split('-')])
+			date_1 = "-".join([str(int(elem)) for elem in str(date_1.date()).split('-')])
+
+			# update the search criterion
+			self.search_criterion(begin_date = date_0, end_date = date_1, search_keyword = search_keyword)
+
+			print('now starting scrapping')
+
+			# multi-page scrape
+			self.scrape_first_x_pages(num_pg)
+
+			print('scraping complete for period', i)
+
+			# saving the results if required
+			if save:
+				self.save_so_far(save_dir, '_'.join([search_keyword, date_0, date_1]))
+				print('saving the data for period', i)
+				# clear the storage variables
+				self.clear_current_tweets_dates()
+				self.clear_current_tweets_dates()
+				# update the tweet count
+				tweet_count += len(self.tweets_so_far)
+				date_count += len(self.dates_so_far)
+			else:
+				tweet_count = len(self.tweets_so_far)
+				date_count = len(self.dates_so_far)
+
+			print('so far we have scraped a total of', tweet_count, 'tweets')
+
+			if tweet_count != date_count:
+				print('!!!!!!!!!!!!!!!!!!!!!!!!!! number of tweets and number of dates not equal')
+				break
+
+			# time consumption information and remaining time estimation
+			avg_time_so_far = (time.time() - begin_time)/(i+1)
+			print('time lapsed for', str(i+1), 'iterations is', str(time.time()-begin_time), 'seconds')
+			print('average time per iteration is:', avg_time_so_far,'seconds')
+			print('total time to lapse predicted to be', str((avg_time_so_far * (num_periods))/60), 'minutes')
+			print('time remaining estimated to be', str((avg_time_so_far * (num_periods-i-1))/60), 'minutes')
+			print(' ')
+			print(' ')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
