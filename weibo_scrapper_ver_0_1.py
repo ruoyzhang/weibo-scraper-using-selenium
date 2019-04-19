@@ -437,12 +437,13 @@ class weibo_scraper():
 			if save:
 				self.save_so_far(save_dir, '_'.join([search_keyword, date_0, date_1]))
 				print('saving the data for period', i)
-				# clear the storage variables
-				self.clear_current_tweets_dates()
-				self.clear_current_tweets_dates()
+				
 				# update the tweet count
 				tweet_count += len(self.tweets_so_far)
 				date_count += len(self.dates_so_far)
+
+				# clear the storage variables
+				self.clear_tweets_dates_so_far()
 			else:
 				tweet_count = len(self.tweets_so_far)
 				date_count = len(self.dates_so_far)
