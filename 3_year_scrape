@@ -3,13 +3,13 @@ import datetime
 import time
 
 # specifying the variables used for testing
-starting_date = datetime.datetime.strptime('08-09-2016', '%d-%m-%Y')
+starting_date = datetime.datetime.strptime('01-02-2017', '%d-%m-%Y')
 end_date = datetime.datetime.strptime('17-04-2017', '%d-%m-%Y')
 username = 'ruoyzhang@outlook.com'
 password = 'Cyfloel1.1.'
 search_keyword = '人工智能'
 save_dir = '../master_thesis_data/weibo'
-max_page = 15
+max_page = 50
 num_days = (end_date - starting_date).days
 
 # initiation

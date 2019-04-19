@@ -1,17 +1,21 @@
-import time            
-import re            
-import os    
-import sys  
-import codecs  
+import time
+import re
+import os
+import sys
+import codecs
 import shutil
-import urllib 
-from selenium import webdriver        
-from selenium.webdriver.common.keys import Keys        
-import selenium.webdriver.support.ui as ui        
+import urllib
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+import selenium.webdriver.support.ui as ui
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from selenium.webdriver.common.action_chains import ActionChains
 from datetime import datetime
 from tqdm import tqdm
 import pickle
+from selenium.common.exceptions import NoSuchElementException
 
 #-------------------------------------------------------------------------------------
 # ||||||||||||||||||||||||||||||||||||||||||||||||
@@ -27,21 +31,63 @@ import pickle
 # 		* It uses firefox as the browser
 #-------------------------------------------------------------------------------------
 
-class weibo_scrapper():
+class weibo_scraper():
 
-	def __init__(self, username, password, save_dir):
+	def __init__(self, username, password):
 		"""
 		username & password: user authentication
-		save_dir: directory for where we want to save the srapped data
 		"""
 
 		# storing vars as class vars
 		self.username = username
 		self.password = password
-		self.save_dir = save_dir
+
+		# variables for temporarily stocking single-page tweets and dates
+		# initiated to be empty lists
+		self.current_tweets = []
+		self.current_dates = []
+
+		# variables for temporarily stocking tweets for multi-page tweets and dates
+		self.tweets_so_far = []
+		self.dates_so_far = []
 
 		# setting up the driver as a class method I guess?
 		self.driver = webdriver.Firefox()
+
+#-------------------------------------------------------------------------------------
+	
+	def clear_tweets_dates_so_far(self):
+		"""
+		method to reset current tweets and dates
+		"""
+		self.tweets_so_far = []
+		self.dates_so_far = []
+
+#-------------------------------------------------------------------------------------
+
+	def clear_current_tweets_dates(self):
+		"""
+		method to reset cumulative tweets and dates
+		"""
+		self.current_tweets = []
+		self.current_dates = []
+
+#-------------------------------------------------------------------------------------
+
+	def save_so_far(self, save_dir, name):
+		"""
+		method to save the below class variables at the specified location:
+			tweets_so_far & dates_so_far
+
+		save_dir: save directory
+		name: name of the file, the files will have the '.pickle' extension
+		"""
+
+		# save the results as pickles
+		with open(os.path.join(self.save_dir, '_'.join([name, 'text.pickle'])), 'wb') as handle:
+			pickle.dump(all_tweets, handle)
+		with open(os.path.join(self.save_dir, '_'.join([name, '.pickle'])), 'wb') as handle:
+			pickle.dump(all_dates, handle)
 
 #-------------------------------------------------------------------------------------
 
@@ -95,28 +141,31 @@ class weibo_scrapper():
 
 			# gavigate to the appropriate page
 			self.driver.get("https://www.weibo.com/login.php")
-			time.sleep(5)
 
-			# click on the login button
-			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/div/div/ul/li/a[@node-type='loginBtn']").send_keys(Keys.RETURN)
-			time.sleep(5)
+			#change window size so that the login button can be scrolled into view
+			self.driver.set_window_size(1080,1404)
 
 			print('inputting username and password')
 
 			# inputting username
-			elem_user = self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/input[@node-type='username']")
-			elem_user.clear()
-			elem_user.send_keys(self.username)
+			self.driver.find_element_by_xpath("//*[@id='loginname']").send_keys(self.username)
 
 			# inputting password
-			elem_pwd = self.driver.find_element_by_xpath("/html/body/div[4]/div[2]/div[3]/div[3]/div[2]/input")
-			elem_pwd.clear()
-			elem_pwd.send_keys(self.password)
+			self.driver.find_element_by_xpath("//input[@type='password']").send_keys(self.password)
 
 			# click on the login button
-			self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/a[@node-type='submitBtn']").click()
+			self.driver.find_element_by_xpath("//a[@node-type='submitBtn']").click()
 
-			print('login successful')
+			# set the delay variable
+			delay = 20
+
+			# we instruct the web driver to wait until the desired element in the next page is successfully loaded before moving on
+			try:
+				WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.XPATH, "//a[@node-type='account']")))
+				print('login successful')
+			except TimeoutException:
+				print('login not yet successful after 20s, now executing an implicit {}s wait'.format(delay))
+				self.driver.implicitly_wait(10)
 
 		# handle exceptions and printing out error in case
 		except Exception as e:
@@ -126,15 +175,40 @@ class weibo_scrapper():
 
 #-------------------------------------------------------------------------------------
 
-	def scrape(self, begin_date, end_date, search_keyword, max_page):
+	def advanced_search(self):
 		"""
-		The scrapping method
+		a very simple wrapper for getting to the search page
+		"""
+
+		# navigating to the search interface
+		print('navigating to Weibo search page')
+		self.driver.get("http://s.weibo.com/")
+
+		# input the search key and hit enter in order to advance to the advanced search interface
+		print('inputing random search term to be redirected to the adv search page')
+		item_inp = self.driver.find_element_by_xpath("//input[@type='text']")
+		item_inp.send_keys('search_keyword')
+		item_inp.send_keys(Keys.RETURN)
+
+		delay = 10
+		try:
+			WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.XPATH, "//a[@node-type='advsearch']")))
+			print('successfully loaded the advanced search page')
+		except TimeoutException:
+			print('advanved search page not yet loaded after 10s, now executing an implicit {}s wait'.format(delay))
+			self.driver.implicitly_wait(10)
+
+
+#-------------------------------------------------------------------------------------
+
+	def search_criterion(self, begin_date, end_date, search_keyword):
+		"""
+		inputting the search criterion once we're on the adv search page
 
 		begin_date & end_date: date limits for the research results,
 								they have to be in the format of "YYYY-MM-DD"
 								as is conventional in the Chinese writting sys
 		search_keyword: the keyword used for Weibo advanced search
-		max_page: the max number of pages from which we srape data off, must be greater than 1
 		"""
 
 		# parsing year, month and day for the 2 date variables
@@ -148,28 +222,15 @@ class weibo_scrapper():
 		end_month = str(int(end_date.split('-')[1])-1)
 		end_day = str(int(end_date.split('-')[2]))
 
-		print('navigating to Weibo adv search page')
-
-		# navigate to the search interface
-		self.driver.get("http://s.weibo.com/")
-
-		print('waiting for page to load ...')
-
-		# need to wait for the page to load else it won't work
-		time.sleep(10)
-
-		print('specifying search criterion')
-
-		# input the search key and hit enter in order to advance to the advanced search interface
-		item_inp = self.driver.find_element_by_xpath("//input[@type='text']")
-		item_inp.send_keys(search_keyword)
-		item_inp.send_keys(Keys.RETURN)
-
-		# waiting
-		time.sleep(5)
+		print('inputting search criterion')
 
 		# now we try to instruct selenium to click on the 'advacned search' bottom
 		self.driver.find_element_by_xpath("//a[@node-type='advsearch']").click()
+
+		# below for instructing selenium to input the correct search keyword
+		kw = self.driver.find_element_by_xpath("/html/body/div/div/div/div/dl/dd/input[@name='keyword']")
+		kw.clear()
+		kw.send_keys(search_keyword)
 
 		# below for instructing selenium to click on the 'time' input field
 		self.driver.find_element_by_xpath("//dd/input[@value='请选择日期'][1]").click()
@@ -202,66 +263,108 @@ class weibo_scrapper():
 		# click on the 'search' button
 		self.driver.find_element_by_xpath("//div[@class='m-adv-search']/div[@class='btn-box']/a[@class='s-btn-a']").click()
 
-		# need to wait again
-		time.sleep(5)
+		# we instruct the function to wait until the tweets are loaded properly
+		delay = 10
+		try:
+			WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.XPATH, "//p[@class='txt' and @node-type='feed_list_content']")))
+			#print('successfully loaded the search result page')
+		except TimeoutException:
+			print('search result page not yet loaded after {}s, now executing an implicit 10s wait'.format(delay))
+			self.driver.implicitly_wait(10)
 
-		print('waiting for results to load ...')
+#-------------------------------------------------------------------------------------
 
-		# a loop for all the result pages
-		# first determine the total number of pages (usually 50 but just in case)
-		dropdown_page = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/span/ul[@node-type='feed_list_page_morelist']/li")
-		num_pg = min(len(dropdown_page), max_page)
+	def scrape_this_page(self):
+		"""
+		Scrape all the tweets and their respective dates on the page
+		The page *** HAS TO *** be a result page of the advance search function
+		"""
 
-		print('there are ', str(num_pg), ' of results, the scraper will aquire tweets of the first', str(max_page), 'pages')
+		# now get the tweets
+		tweets = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='txt' and @node-type='feed_list_content']")
 
-		# storage variables for the tweets and dates
-		all_tweets = []
-		all_dates = []
+		# retrieve only the text
+		tweets = [tweet.text for tweet in tweets]
 
-		print('now scrapping ...')
+		# the below extracts date
+		dates = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='from']")
 
-		# now loop
+		# trying to convert string to datetime format
+		# first, replace the chinese characters
+		dates = [date.text.split(' ')[0].replace('年', ' ').replace('月', ' ').replace('日', '') for date in dates]
+
+		# then add year if necessary
+		dates = ['2019 ' + date if len(date) == 5 else date for date in dates]
+
+		# then we convert it to datetime format
+		dates = [datetime.strptime(date, '%Y %m %d') for date in dates]
+
+		# storing them in class variables
+		self.current_tweets = tweets
+		self.current_dates = dates
+
+#-------------------------------------------------------------------------------------
+	
+	def next_page(self):
+		"""
+		a simple wrapper for commading selenium to go to the next page by clicking on the current button
+		"""
+		self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
+
+		# we instruct the function to wait until the tweets are loaded properly
+		delay = 10
+		try:
+			WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.XPATH, "//p[@class='txt' and @node-type='feed_list_content']")))
+			#print('successfully loaded the search result page')
+		except TimeoutException:
+			print('page not yet loaded after {}s, now executing an implicit 10s wait'.format(delay))
+
+#-------------------------------------------------------------------------------------
+
+	def scrape_first_x_pages(self, num_pg):
+		"""
+		a method to scrape the first user-defined number of pages for a particular query
+		please note that the results will be accumulated at the class vars: tweets_so_far & dates_so_far
+
+		num_pg: the max number of pages to scrape
+		"""
+
+		# first navigate to the search page and initiate search
+		#elf.advanced_search()
+
+		# specify the search criterion
+		#self.search_criterion(begin_date, end_date, search_keyword)
+
+		# now loop through the user defined number of pages
 		for i in range(num_pg):
+			# scrape the current page
+			self.scrape_this_page()
 
-			# now get the tweets
-			tweets = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='txt' and @node-type='feed_list_content']")
+			# update the stored tweets and dates
+			self.tweets_so_far += self.current_tweets
+			self.dates_so_far += self.current_dates
 
-			# retrieve only the text
-			tweets = [tweet.text for tweet in tweets]
+			# turn the next page with the exception handler
+			try:
+				self.next_page()
+			except NoSuchElementException:
+				print('currently at the final page, we have obtained tweets from', i, 'pages')
+				break
 
-			# # the below extracts date
-			dates = self.driver.find_elements_by_xpath("/html/body/div/div/div/div/div/div/div/div/div/p[@class='from']")
+#-------------------------------------------------------------------------------------
 
-			# trying to convert string to datetime format
-			# first, replace the chinese characters
-			dates = [date.text.split(' ')[0].replace('年', ' ').replace('月', ' ').replace('日', '') for date in dates]
 
-			# then add year if necessary
-			dates = ['2019 ' + date if len(date) == 5 else date for date in dates]
+	def scrape_over_period(self, begin_date, end_date, search_keyword, num_pg):
+		"""
+		The scrapping method
 
-			# then we convert it to datetime format
-			dates = [datetime.strptime(date, '%Y %m %d') for date in dates]
+		begin_date & end_date: date limits for the research results,
+								they have to be in the format of "YYYY-MM-DD"
+								as is conventional in the Chinese writting sys
+		search_keyword: the keyword used for Weibo advanced search
+		max_page: the max number of pages from which we srape data off, must be greater than 1
+		"""
 
-			# append res to the storage variables
-			all_tweets += tweets
-			all_dates += dates
-
-			print('page ', str(i+1), ' complete')
-
-			# go to the next page if not at page 50 or the final page
-			if i < num_pg - 1:
-				self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
-
-			# wait again
-			time.sleep(2)
-
-		print('all pages scrapped, now saving ...')
-
-		# save the results as pickles
-		with open(os.path.join(self.save_dir, '_'.join([end_day, str(int(end_month)+1), end_year, 'text.pickle'])), 'wb') as handle:
-			pickle.dump(all_tweets, handle)
-		with open(os.path.join(self.save_dir, '_'.join([end_day, str(int(end_month)+1), end_year, 'date.pickle'])), 'wb') as handle:
-			pickle.dump(all_dates, handle)
-
-		print('save complete, files can be found at: ', self.save_dir)
-
+		# parsing year, month and day for the 2 date variables
+		# begin date
+		pass
