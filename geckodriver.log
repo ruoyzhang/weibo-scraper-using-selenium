@@ -9721,3 +9721,74 @@ JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboF
 Exiting due to channel error.
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
 Exiting due to channel error.
+1555701820249	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.oEDFqCbXTDHP"
+1555701820712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555701820712	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555701820713	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555701822307	Marionette	INFO	Listening on port 65221
+1555701822410	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=19, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript error: https://js1.t.sinajs.cn/t6/home/js/pl/rightmod/myinfo/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js.t.sinajs.cn/t6/home/js/pl/content/bubbleTip/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js.t.sinajs.cn/t6/home/js/pl/top/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js.t.sinajs.cn/t6/home/js/pl/content/feedBar/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js2.t.sinajs.cn/t6/home/js/pl/rightmod/musicRank/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js.t.sinajs.cn/t6/home/js/pl/third/right/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js1.t.sinajs.cn/t6/home/js/pl/third/viprightmod/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js2.t.sinajs.cn/t6/home/js/pl/guide/adforfqy/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js.t.sinajs.cn/t6/home/js/pl/guide/bigday/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js2.t.sinajs.cn/t6/home/js/pl/content/changeLanguage/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript error: https://js.t.sinajs.cn/t6/home/js/pl/base/index.js?version=201904200324, line 1: ReferenceError: STK is not defined
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Child 83919, MediaPlayback #1] WARNING: Decoder=12de75800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 83919, MediaPlayback #1] WARNING: Decoder=12de75800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 83919, MediaPlayback #1] WARNING: Decoder=12cf7e400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 83919, MediaPlayback #1] WARNING: Decoder=12cf7e400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 83919, MediaPlayback #4] WARNING: Decoder=11c3f1800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 83919, MediaPlayback #4] WARNING: Decoder=11c3f1800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 83919, MediaPlayback #3] WARNING: Decoder=126673800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 83919, MediaPlayback #3] WARNING: Decoder=126673800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 83919, MediaPlayback #3] WARNING: Decoder=12c6f1000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 83919, MediaPlayback #3] WARNING: Decoder=12c6f1000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 83918, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+1555702523692	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.Dst3LXzfMwmZ"
+1555702524146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555702524146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555702524146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555702525642	Marionette	INFO	Listening on port 49524
+1555702525755	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=19, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.

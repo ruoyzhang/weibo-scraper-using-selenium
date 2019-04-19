@@ -444,6 +444,7 @@ class weibo_scraper():
 
 				# clear the storage variables
 				self.clear_tweets_dates_so_far()
+				print('tweets so far cleared')
 			else:
 				tweet_count = len(self.tweets_so_far)
 				date_count = len(self.dates_so_far)
