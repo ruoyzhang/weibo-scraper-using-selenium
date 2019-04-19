@@ -16,6 +16,7 @@ from datetime import datetime
 from tqdm import tqdm
 import pickle
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 
 #-------------------------------------------------------------------------------------
 # ||||||||||||||||||||||||||||||||||||||||||||||||
@@ -84,10 +85,10 @@ class weibo_scraper():
 		"""
 
 		# save the results as pickles
-		with open(os.path.join(self.save_dir, '_'.join([name, 'text.pickle'])), 'wb') as handle:
-			pickle.dump(all_tweets, handle)
-		with open(os.path.join(self.save_dir, '_'.join([name, '.pickle'])), 'wb') as handle:
-			pickle.dump(all_dates, handle)
+		with open(os.path.join(save_dir, '_'.join([name, 'texts.pickle'])), 'wb') as handle:
+			pickle.dump(self.tweets_so_far, handle)
+		with open(os.path.join(save_dir, '_'.join([name, 'dates.pickle'])), 'wb') as handle:
+			pickle.dump(self.dates_so_far, handle)
 
 #-------------------------------------------------------------------------------------
 
@@ -143,7 +144,7 @@ class weibo_scraper():
 			self.driver.get("https://www.weibo.com/login.php")
 
 			#change window size so that the login button can be scrolled into view
-			self.driver.set_window_size(1080,1404)
+			self.driver.set_window_size(1404,1404)
 
 			print('inputting username and password')
 
@@ -309,7 +310,7 @@ class weibo_scraper():
 		"""
 		a simple wrapper for commading selenium to go to the next page by clicking on the current button
 		"""
-		self.driver.find_element_by_xpath("/html/body/div/div/div/div/div/div/a[@class='next']").click()
+		self.driver.find_element_by_xpath("//a[@class='next']").click()
 
 		# we instruct the function to wait until the tweets are loaded properly
 		delay = 10
@@ -337,19 +338,26 @@ class weibo_scraper():
 
 		# now loop through the user defined number of pages
 		for i in range(num_pg):
-			# scrape the current page
-			self.scrape_this_page()
+			# scrape the current page with exception handler
+			try:
+				self.scrape_this_page()
+			except ValueError:
+				print('currently at the final page, we have obtained tweets from', str(i), 'pages')
+				break
 
 			# update the stored tweets and dates
 			self.tweets_so_far += self.current_tweets
 			self.dates_so_far += self.current_dates
 
+			print('page', str(i+1), 'complete')
+
 			# turn the next page with the exception handler
-			try:
-				self.next_page()
-			except NoSuchElementException:
-				print('currently at the final page, we have obtained tweets from', i, 'pages')
-				break
+			if i < num_pg - 1:
+				try:
+					self.next_page()
+				except NoSuchElementException:
+					print('currently at the final page, we have obtained tweets from', str(i), 'pages')
+					break
 
 #-------------------------------------------------------------------------------------
 
