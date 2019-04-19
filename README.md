@@ -8,6 +8,6 @@
 This scraper is designed for single account use although multiple account use is possible.
 It is designed for small volume scraping, depending on specification and internet/Weibo server conditions, the scraper can acquire up to 150K tweets per day
 
-Selenium and firefox (and its geckodriver) is required, although other browsers can also easily made compatible with a slight modification to the code
+Selenium and firefox (and its geckodriver) are required, although other browsers can also be easily made compatible with a slight modification to the code
 
 To see how the scraper can be executed, see 'sample_execution.py'
