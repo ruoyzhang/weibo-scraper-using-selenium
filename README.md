@@ -1,4 +1,4 @@
-# Weibo Scraper (search)
+# Weibo Scraper
 
 ## A Selenium based scraper for the Chinese social media site Weibo
 ### The scraper utilises the advance search function of Weibo to acquire tweets and their respective dates:
