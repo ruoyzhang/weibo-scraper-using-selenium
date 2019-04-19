@@ -423,6 +423,16 @@ class weibo_scraper():
 			date_0 = "-".join([str(int(elem)) for elem in str(date_0.date()).split('-')])
 			date_1 = "-".join([str(int(elem)) for elem in str(date_1.date()).split('-')])
 
+
+			delay = 10
+			try:
+				WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.XPATH, "//a[@node-type='advsearch']")))
+				print('successfully found the advanced search button')
+			except TimeoutException:
+				print('advanved search button not yet loaded after 10s, now executing an implicit {}s wait'.format(delay))
+				self.driver.implicitly_wait(10)
+
+
 			# update the search criterion
 			self.search_criterion(begin_date = date_0, end_date = date_1, search_keyword = search_keyword)
 

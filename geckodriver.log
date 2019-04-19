@@ -9792,3 +9792,264 @@ Exiting due to channel error.
 JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
 JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
 JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=19, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 84665, MediaPlayback #1] WARNING: Decoder=134fdf800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #1] WARNING: Decoder=134fdf800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #3] WARNING: Decoder=15eb57000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #3] WARNING: Decoder=15eb57000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #4] WARNING: Decoder=1acb23c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #1] WARNING: Decoder=19a324000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #4] WARNING: Decoder=1acb23c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #1] WARNING: Decoder=19a324000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #2] WARNING: Decoder=14c6c5400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #2] WARNING: Decoder=14c6c5400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #4] WARNING: Decoder=14c6e0000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #4] WARNING: Decoder=14c6e0000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #4] WARNING: Decoder=14b174000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #4] WARNING: Decoder=14b174000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #1] WARNING: Decoder=19d2b9400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #1] WARNING: Decoder=19d2b9400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #1] WARNING: Decoder=1576ef400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #1] WARNING: Decoder=1576ef400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555703685160	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 84665, MediaPlayback #4] WARNING: Decoder=19b1d6400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #4] WARNING: Decoder=19b1d6400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #1] WARNING: Decoder=1325ed400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #1] WARNING: Decoder=1325ed400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555703700075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703706613	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703713196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703716666	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703729605	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703739904	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703745063	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703749110	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703754703	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703761364	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703766253	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703772713	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703777101	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703781758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703786207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703795207	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703799813	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703809707	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703814458	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703815312	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703816962	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703817903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703818926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703820367	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703827674	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703830663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703836188	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703838928	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703845435	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703851274	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703854465	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 84665, MediaPlayback #3] WARNING: Decoder=1576e8400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #3] WARNING: Decoder=1576e8400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555703863663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703867862	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703876963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703881850	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703885914	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703890607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703894159	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703897406	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703900262	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703904107	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703907109	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703910355	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703914656	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703918806	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703926511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703931006	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703935365	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703940559	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703945658	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703949813	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703955061	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703963402	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703968812	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703972755	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703978313	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703982754	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703986803	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703990554	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703994757	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555703999962	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 84665, MediaPlayback #1] WARNING: Decoder=19cc7ac00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #1] WARNING: Decoder=19cc7ac00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 84665, MediaPlayback #3] WARNING: Decoder=130d1b000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 84665, MediaPlayback #3] WARNING: Decoder=130d1b000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555704374740	Marionette	INFO	Stopped listening on port 49524
+1555704422302	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.7ZY3306W5mcO"
+1555704422771	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555704422772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555704422772	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555704424369	Marionette	INFO	Listening on port 51267
+1555704424467	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=19, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 86626, MediaPlayback #2] WARNING: Decoder=12e18ec00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 86626, MediaPlayback #2] WARNING: Decoder=12e18ec00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 86626, MediaPlayback #1] WARNING: Decoder=13aa3a400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 86626, MediaPlayback #1] WARNING: Decoder=13aa3a400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 86626, MediaPlayback #2] WARNING: Decoder=12dfb2400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 86626, MediaPlayback #2] WARNING: Decoder=12dfb2400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555705763835	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.n2ijFsQKzmuA"
+1555705764378	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555705764379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555705764379	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555705766018	Marionette	INFO	Listening on port 52190
+1555705766094	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555705766728	Marionette	INFO	Stopped listening on port 51267
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=19, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Child 87988, MediaPlayback #2] WARNING: Decoder=12cd8ac00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=12cd8ac00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 87988, MediaPlayback #3] WARNING: Decoder=128e25c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #3] WARNING: Decoder=128e25c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 87988, MediaPlayback #1] WARNING: Decoder=11ed2c400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #1] WARNING: Decoder=11ed2c400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+JavaScript error: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 135: NotSupportedError: The media resource indicated by the src attribute or assigned media provider object was not suitable.
+[Child 87988, MediaPlayback #2] WARNING: Decoder=128d15800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=128d15800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 87988, MediaPlayback #2] WARNING: Decoder=128d06800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=128d06800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
