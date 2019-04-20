@@ -11,3 +11,7 @@ It is designed for small volume scraping, depending on specification and interne
 Selenium and firefox (and its geckodriver) are required, although other browsers can also be easily made compatible with a slight modification to the code
 
 To see how the scraper can be executed, see 'sample_execution.py'
+
+
+
+Please note that the scraper can run into internet connection / weibo server response related issues, especially during long scraping sessions.
