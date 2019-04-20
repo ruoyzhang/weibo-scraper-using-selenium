@@ -18,6 +18,7 @@ import pickle
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 from math import floor
+from selenium.common.exceptions import StaleElementReferenceException
 
 #-------------------------------------------------------------------------------------
 # ||||||||||||||||||||||||||||||||||||||||||||||||
@@ -341,7 +342,10 @@ class weibo_scraper():
 		for i in range(num_pg):
 			# scrape the current page with exception handler
 			try:
-				self.scrape_this_page()
+				try:
+					self.scrape_this_page()
+				except StaleElementReferenceException:
+					continue
 			except ValueError:
 				print('currently at the final page, we have obtained tweets from', str(i), 'pages')
 				break

@@ -10053,3 +10053,1751 @@ JavaScript error: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFee
 [Child 87988, MediaPlayback #2] WARNING: Decoder=128d15800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
 [Child 87988, MediaPlayback #2] WARNING: Decoder=128d06800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
 [Child 87988, MediaPlayback #2] WARNING: Decoder=128d06800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555707695560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707715106	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707724689	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707725428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707726891	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707727892	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707729334	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707730050	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707735783	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707748964	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707765225	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707777766	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707781501	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707803610	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707807375	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707811191	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707816963	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707820525	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #2] WARNING: Decoder=1aaeec400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=1aaeec400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555707891682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707897956	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707904377	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707916750	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707922169	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707933426	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707940215	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707947279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707970410	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707974221	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707981329	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707987075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707990868	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555707997015	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708017106	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708017926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708019583	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708020532	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708021757	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708023201	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708023935	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708067086	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708073212	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #2] WARNING: Decoder=198192c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=198192c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555708093468	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708097225	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708101324	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708105619	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708111176	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708115676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708124720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708130212	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708134810	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708140221	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708160416	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708180926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708186269	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708193117	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708204076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708210071	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708214962	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708233916	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708238767	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708248764	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708283813	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708292763	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708305530	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708325970	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708332964	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708341563	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708358770	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708366528	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708372079	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708382717	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708387719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708388665	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708389427	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708391150	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708391875	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708393196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708394129	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708408471	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708413459	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708417420	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708425978	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708432425	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708472877	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708489020	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708507375	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708513032	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708517966	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708524619	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708532377	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708538927	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708553921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708559880	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708565819	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708571962	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708576726	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708582728	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708588925	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708599668	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708607024	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708613774	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708618617	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708624729	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708629626	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708640013	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708648127	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708654270	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708666682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708671927	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708679083	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708684232	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708690426	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708701576	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708711474	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708717477	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708724466	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708733882	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708738930	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708740032	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708740986	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708742250	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708743590	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708744549	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708758305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708764708	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708775073	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708778611	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708784570	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708803634	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708818419	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708823765	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708833378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708837675	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #2] WARNING: Decoder=1a34e5c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=1a34e5c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555708851570	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708855413	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708858777	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708863579	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708876119	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708880575	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708885967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708889375	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708894319	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708902263	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708908709	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708914416	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708919607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #1] WARNING: Decoder=1a04c6800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #1] WARNING: Decoder=1a04c6800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555708943096	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708947955	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708951299	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708960455	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708975362	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708981424	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708984756	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555708993156	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709010844	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709014393	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709015494	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709016444	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709017387	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709018498	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709019441	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709020675	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709022075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709034242	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709040594	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709050524	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709056825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #1] WARNING: Decoder=198195400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #1] WARNING: Decoder=198195400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555709063441	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709069886	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709088548	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709093070	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709107655	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709115228	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709126509	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709130007	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709135600	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709139147	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709146714	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709151531	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #1] WARNING: Decoder=1a9d11000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #1] WARNING: Decoder=1a9d11000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555709174648	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709181355	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709186006	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709191574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709195231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709198896	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709205298	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709209054	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709212368	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709219260	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709222695	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709226577	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709227452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709228175	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709229625	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709230634	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709231575	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709232801	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709233996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709249825	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript error: https://atanx.alicdn.com/t/tanxclick.js, line 1: NS_ERROR_FAILURE: 
+1555709256014	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709260864	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709267439	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709271589	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709274727	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #1] WARNING: Decoder=198320c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #1] WARNING: Decoder=198320c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555709288752	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709292066	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709296983	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709300907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709304413	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709307753	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709311126	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #2] WARNING: Decoder=1a5f75400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #2] WARNING: Decoder=1a5f75400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555709322503	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709330304	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709337560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709341468	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709346310	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709350025	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709353447	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709356966	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709360466	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709364758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709368303	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709373179	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709377557	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #3] WARNING: Decoder=198197400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #3] WARNING: Decoder=198197400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555709404658	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709409203	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709412722	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709416263	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709430324	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709435713	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709439907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709444720	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709449166	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709452775	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709453569	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709454311	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709455260	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709456966	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709458425	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709459372	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709464220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709470790	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709477159	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709490566	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709507601	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709510976	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709514648	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709522548	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709536516	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709540667	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709566480	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709571196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709578204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709585075	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709595107	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709601929	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709610371	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709614174	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709617962	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709626574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709635495	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709639470	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709643860	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709648999	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709656364	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709660383	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709668658	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709672604	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709678670	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709693675	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709698360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709699205	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709700711	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709701651	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709702649	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709703584	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709704802	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709705911	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709718209	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709722480	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709729358	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709733452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709740821	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709745264	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709754776	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709758162	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709761356	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709770277	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709783554	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709787526	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709796655	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709804560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709818028	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709824994	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709828459	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709844201	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709848474	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709852459	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709858056	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709861609	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709879790	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709886676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709892103	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709896213	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709900095	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709900951	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709902409	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709903349	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709904462	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709905404	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709906647	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555709907792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 87988, MediaPlayback #1] WARNING: Decoder=1a682ac00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #1] WARNING: Decoder=1a682ac00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 87988, MediaPlayback #3] WARNING: Decoder=19e840000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 87988, MediaPlayback #3] WARNING: Decoder=19e840000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555710063144	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710093775	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710102231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710103066	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710103814	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710104779	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710105723	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710106961	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710107903	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710109138	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710110500	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+1555710324738	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.JaDglMB9KK1f"
+1555710325345	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555710325346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555710325346	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555710327112	Marionette	INFO	Listening on port 56095
+1555710327211	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 92602, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 92601, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+1555710337058	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.tBGcyK6QiJTE"
+1555710337565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555710337565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555710337565	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555710339285	Marionette	INFO	Listening on port 56139
+1555710339314	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+1555710691912	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710695196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710699191	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710705874	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 92625, MediaPlayback #7] WARNING: Decoder=18062f000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #7] WARNING: Decoder=18062f000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555710725800	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710729367	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710732824	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710738472	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710742623	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710765518	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710770227	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710774669	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710779070	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710783673	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710789323	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710790217	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710790967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710792408	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710793414	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710794355	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710795580	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710796733	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710804984	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710812129	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710815577	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710818892	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710827980	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710830653	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710833037	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710837388	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710845190	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710850601	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710853849	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710863820	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710878155	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710886174	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710889378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710895063	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710897758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript error: https://atanx.alicdn.com/t/tanxclick.js, line 1: NS_ERROR_FAILURE: 
+1555710906783	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710922541	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710928219	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710935671	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710939475	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710943493	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710946231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710953445	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710964306	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710965061	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710965787	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710966718	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710967714	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710968889	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710970327	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710974242	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710982162	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710985344	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555710994729	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711001378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711005709	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711020235	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711027870	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711038654	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711041965	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711059682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711062465	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711067219	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711075884	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711080664	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711095066	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711106780	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711109896	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711116393	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711119906	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711125466	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711130664	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711185769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711189247	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711197719	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 92625, MediaPlayback #3] WARNING: Decoder=12d83b400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #3] WARNING: Decoder=12d83b400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555711220056	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711220805	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711221528	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711222462	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711223398	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711224400	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711225838	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711233407	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711246686	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711250698	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711253624	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711256151	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555711270010	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 92625, MediaPlayback #2] WARNING: Decoder=1807fa800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #2] WARNING: Decoder=1807fa800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #4] WARNING: Decoder=19eca9800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #4] WARNING: Decoder=19eca9800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #2] WARNING: Decoder=1b278e000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #2] WARNING: Decoder=1b278e000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #1] WARNING: Decoder=1b3804800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #1] WARNING: Decoder=1b3804800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #2] WARNING: Decoder=130edb800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #2] WARNING: Decoder=130edb800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #1] WARNING: Decoder=12e111c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #1] WARNING: Decoder=12e111c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #1] WARNING: Decoder=12fe26800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #1] WARNING: Decoder=12fe26800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 92625, MediaPlayback #1] WARNING: Decoder=1a5454c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #1] WARNING: Decoder=1a5454c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555712224540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712232999	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712243348	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712255540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712259144	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712267567	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712279742	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712289906	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712293725	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712294495	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712295221	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712296856	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712297919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712298853	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712300084	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712301334	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712308319	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712312373	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712315793	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712323638	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712343738	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712350563	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712354451	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712357994	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712361645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712366304	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712371114	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712380621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712385469	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712390412	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712399444	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712407757	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712411495	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712414868	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712419746	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712423058	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712427148	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712431042	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712435704	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712443169	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712446568	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712450703	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712457740	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712461107	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712464601	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712469051	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712473603	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712476966	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712484220	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712498100	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712501354	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712505105	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712505867	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712507352	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712508295	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712509297	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712553553	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712557422	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712569026	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712577322	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712591519	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712595309	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712602104	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712605520	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712610108	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712621300	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712625808	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712629407	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712639645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712654005	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712660795	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712681943	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712687011	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712693710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712697440	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712711651	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712714869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712732944	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712733710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712734492	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712735429	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712736377	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712737443	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712738891	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712742504	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712746019	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712749346	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712752033	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712769904	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 92625, MediaPlayback #2] WARNING: Decoder=19f174400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #2] WARNING: Decoder=19f174400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555712793376	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712799085	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 92625, MediaPlayback #2] WARNING: Decoder=1a0ddd000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 92625, MediaPlayback #2] WARNING: Decoder=1a0ddd000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555712810863	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712839621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712842820	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712847538	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712850365	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712874094	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555712894064	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555713870941	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.tHfJF7RKi4ah"
+1555713871421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555713871421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555713871421	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555713872888	Marionette	INFO	Stopped listening on port 56139
+1555713873069	Marionette	INFO	Listening on port 59016
+1555713873078	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 96161, MediaPlayback #4] WARNING: Decoder=127fd8400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #4] WARNING: Decoder=127fd8400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #4] WARNING: Decoder=12bc0e800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #4] WARNING: Decoder=12bc0e800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #1] WARNING: Decoder=12ee89800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=12ee89800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #2] WARNING: Decoder=12bc0ac00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #2] WARNING: Decoder=12bc0ac00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #3] WARNING: Decoder=133d88c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #3] WARNING: Decoder=133d88c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #1] WARNING: Decoder=133dd3400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=133dd3400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #2] WARNING: Decoder=129daf000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #2] WARNING: Decoder=129daf000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #4] WARNING: Decoder=12b658800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #4] WARNING: Decoder=12b658800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #2] WARNING: Decoder=127f08c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #2] WARNING: Decoder=127f08c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #2] WARNING: Decoder=12eed7800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #2] WARNING: Decoder=12eed7800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #4] WARNING: Decoder=126d20400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #4] WARNING: Decoder=126d20400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #4] WARNING: Decoder=12c5f0400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #4] WARNING: Decoder=12c5f0400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #1] WARNING: Decoder=12d118800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=12d118800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #2] WARNING: Decoder=129dbf000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #2] WARNING: Decoder=129dbf000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #2] WARNING: Decoder=12ee41000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #2] WARNING: Decoder=12ee41000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #3] WARNING: Decoder=12f150000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=12a3ea000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=12a3ea000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #3] WARNING: Decoder=12f150000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 96161, MediaPlayback #1] WARNING: Decoder=13346c400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=13346c400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555715248800	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715251287	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715253586	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715255716	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715260958	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715263655	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715266628	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715272341	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715274896	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 96161, MediaPlayback #1] WARNING: Decoder=130f2c000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 96161, MediaPlayback #1] WARNING: Decoder=130f2c000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555715293960	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715297297	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715301858	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715304448	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715307511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715310994	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715313403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715317844	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715325657	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715328381	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715330617	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715332827	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript error: https://atanx.alicdn.com/t/tanxclick.js, line 1: NS_ERROR_FAILURE: 
+1555715335254	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715336004	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715336722	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715338139	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715339130	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715340077	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715341019	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715344388	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715346786	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715352793	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715356056	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715357262	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715358196	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715359431	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715360381	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715361599	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555715362435	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+console.error: "Error: Can not send request because front 'domnode' is already destroyed.: generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol.js:1522:15\nupdateSelectionCssSelector@resource://devtools/client/inspector/inspector.js:1226:7\nonNewSelection@resource://devtools/client/inspector/inspector.js:1291:5\nemit@resource://devtools/shared/event-emitter.js:186:15\nemit@resource://devtools/shared/event-emitter.js:267:5\nsetNodeFront@resource://devtools/client/framework/selection.js:153:5\nonDetached@resource://devtools/client/inspector/inspector.js:1364:5\nemit@resource://devtools/shared/event-emitter.js:186:15\nemit@resource://devtools/shared/event-emitter.js:267:5\n_onMutations@resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/event-emitter.js:186:15\nemit@resource://devtools/shared/event-emitter.js:267:5\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:402:7\n"
+Error: Can not send request because front 'domnode' is already destroyed.: generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol.js:1522:15
+updateSelectionCssSelector@resource://devtools/client/inspector/inspector.js:1226:7
+onNewSelection@resource://devtools/client/inspector/inspector.js:1291:5
+emit@resource://devtools/shared/event-emitter.js:186:15
+emit@resource://devtools/shared/event-emitter.js:267:5
+setNodeFront@resource://devtools/client/framework/selection.js:153:5
+onDetached@resource://devtools/client/inspector/inspector.js:1364:5
+emit@resource://devtools/shared/event-emitter.js:186:15
+emit@resource://devtools/shared/event-emitter.js:267:5
+_onMutations@resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/event-emitter.js:186:15
+emit@resource://devtools/shared/event-emitter.js:267:5
+getMutations/<@resource://devtools/shared/fronts/inspector.js:402:7
+
+console.error: "TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:65:13\nonMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:82:11\nemit@resource://devtools/shared/event-emitter.js:186:15\nemit@resource://devtools/shared/event-emitter.js:267:5\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:402:7\n"
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:65:13
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:82:11
+emit@resource://devtools/shared/event-emitter.js:186:15
+emit@resource://devtools/shared/event-emitter.js:267:5
+getMutations/<@resource://devtools/shared/fronts/inspector.js:402:7
+
+1555733570173	Marionette	INFO	Stopped listening on port 59016
+1555733588980	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.z7zfGc6jlJkU"
+1555733589683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555733589683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555733589683	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555733591417	Marionette	INFO	Listening on port 61979
+1555733591451	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+1555734302895	Marionette	INFO	Stopped listening on port 61979
+1555734313098	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.7jxkbWdJVsKv"
+1555734313782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555734313782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555734313782	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555734315707	Marionette	INFO	Listening on port 62409
+1555734315766	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 15799, MediaPlayback #2] WARNING: Decoder=136ba1000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=136ba1000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #3] WARNING: Decoder=1252c7400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #3] WARNING: Decoder=1252c7400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=127ed7400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=127ed7400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555735818918	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735837946	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735847263	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735852048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735861535	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735869373	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735881123	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735881895	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735883122	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735884114	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735884840	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735886163	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735887115	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735898617	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735905371	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735914816	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735928956	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735938574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735942335	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735945700	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #2] WARNING: Decoder=129827000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=129827000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555735963789	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555735967603	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #2] WARNING: Decoder=12537e400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=12537e400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #2] WARNING: Decoder=1281ea400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=1281ea400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=127edec00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=127edec00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555736009967	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #4] WARNING: Decoder=12982c000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #4] WARNING: Decoder=12982c000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555736017032	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736021511	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736032740	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+JavaScript error: https://atanx.alicdn.com/t/tanxclick.js, line 1: NS_ERROR_FAILURE: 
+1555736035399	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #4] WARNING: Decoder=12ab41c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #4] WARNING: Decoder=12ab41c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555736054304	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736073233	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736076054	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736082017	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736086373	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #1] WARNING: Decoder=129cf4800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=129cf4800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555736107568	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736116653	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736141331	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736151121	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736189123	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736274295	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736286226	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736292158	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736298070	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736312901	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736314111	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736315049	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736316294	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736317741	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555736318465	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #3] WARNING: Decoder=129ad5000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #3] WARNING: Decoder=129ad5000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12e907800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12e907800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #3] WARNING: Decoder=12af50400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=137261000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #3] WARNING: Decoder=12af50400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #2] WARNING: Decoder=137261000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12e903400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12e903400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #2] WARNING: Decoder=139421000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=139421000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #4] WARNING: Decoder=12e961c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #4] WARNING: Decoder=12e961c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 692: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+JavaScript error: resource:///actors/NetErrorChild.jsm, line 692: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIStringBundle.GetStringFromName]
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12ade9400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12ade9400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12c97f800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=12c97f800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=127ee4c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=127ee4c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #3] WARNING: Decoder=12ababc00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #3] WARNING: Decoder=12ababc00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #4] WARNING: Decoder=138931c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #4] WARNING: Decoder=138931c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 15799, MediaPlayback #1] WARNING: Decoder=131149400 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=131149400 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555737616331	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737621934	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #2] WARNING: Decoder=130e93000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=130e93000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555737647847	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737660044	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737664979	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737669360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737673292	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737691242	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737738224	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737743239	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737751973	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737757142	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737765279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737771907	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737773350	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737774298	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737775521	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737776461	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737777683	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737789738	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737794648	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737798184	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737805594	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737813595	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737819371	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737822427	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #2] WARNING: Decoder=1275a3c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #2] WARNING: Decoder=1275a3c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555737835303	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737851290	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737858564	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737881367	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737885450	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737889594	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737896314	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737916766	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737929672	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737937769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737941540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737946305	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737957860	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737966732	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737973007	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737981493	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737984981	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737986231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737987666	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737988692	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737989645	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737990869	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737991921	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555737997972	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738008533	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738015977	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738028872	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738033366	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738040365	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738044674	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738051088	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738056918	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738091536	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738137298	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738146826	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738151731	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738157598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738161926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738172688	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738175960	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738179491	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738187855	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738192570	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738216126	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738219508	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738223998	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738241187	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738244864	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738245606	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738246344	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738247291	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738248235	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738249465	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738250428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738251663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738252730	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738256114	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738263939	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738268706	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738291661	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738299016	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738309509	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738312435	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+[Child 15799, MediaPlayback #1] WARNING: Decoder=1275a4000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 15799, MediaPlayback #1] WARNING: Decoder=1275a4000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+1555738368924	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555738398076	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:224:64
+1555745435198	Marionette	INFO	Stopped listening on port 62409
+1555745453784	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.8wqJ18J3IGtm"
+1555745454484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555745454485	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555745454485	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555745456266	Marionette	INFO	Listening on port 65323
+1555745456334	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
+[Child 26329, MediaPlayback #1] WARNING: Decoder=145d50800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 26329, MediaPlayback #1] WARNING: Decoder=145d50800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 26329, MediaPlayback #4] WARNING: Decoder=130730c00 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 26329, MediaPlayback #4] WARNING: Decoder=130730c00 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 26329, MediaPlayback #2] WARNING: Decoder=157928000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 26329, MediaPlayback #2] WARNING: Decoder=157928000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 26329, MediaPlayback #2] WARNING: Decoder=12ba94000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 26329, MediaPlayback #2] WARNING: Decoder=12ba94000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 26329, MediaPlayback #1] WARNING: Decoder=157987000 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 26329, MediaPlayback #1] WARNING: Decoder=157987000 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+[Child 26329, MediaPlayback #1] WARNING: Decoder=145d89800 state=DECODING_METADATA Decode metadata failed, shutting down decoder: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 350
+[Child 26329, MediaPlayback #1] WARNING: Decoder=145d89800 Decode error: NS_ERROR_DOM_MEDIA_METADATA_ERR (0x806e0006) - static MP4Metadata::ResultAndByteBuffer mozilla::MP4Metadata::Metadata(mozilla::ByteStream *): Cannot parse metadata: file /builds/worker/workspace/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3331
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x240016,name=PCameras::Msg_AllDone) Channel error: cannot send/recv
+
+Exiting due to channel error.
+Exiting due to channel error.
+1555747095557	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.m2Lt00QCdhpH"
+1555747096133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555747096133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555747096133	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555747112660	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/js/8vkf59wn4hq8sg4jy8sxh7vm0000gn/T/rust_mozprofile.yFncfA40RUIE"
+1555747113615	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1555747113616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1555747113616	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1555747115848	Marionette	INFO	Listening on port 50018
+1555747115918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/secdev/sufei_data/3.7.1/index.js, line 1: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/secdev/nsv/1.0.60/ns_b_71_3_n.js, line 3: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://g.alicdn.com/AWSC/WebUMID/1.71.7/um.js?d=20, line 2: Error: WebGL warning: getContext: Disallowing antialiased backbuffers due to blacklisting.
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190410105900, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190410105900, line 79: unreachable code after return statement
