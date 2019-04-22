@@ -15,3 +15,5 @@ To see how the scraper can be executed, see 'sample_execution.py'
 
 
 Please note that the scraper can run into internet connection / weibo server response related issues, especially during long scraping sessions. The scraping speed largely depends on your location internet connection conditions and where you are in the World, for example, scraping this with a Chinese internet connection will most likely lead to faster scraping speed and experience fewer errors than someone executing this with an European connection
+
+*** please note that the program runs by default in firefox headless mode, the option to run it with the head is provided by the variable 'headless' when initiating the class. ***
