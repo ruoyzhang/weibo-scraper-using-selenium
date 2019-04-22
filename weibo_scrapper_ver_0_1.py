@@ -381,7 +381,7 @@ class weibo_scraper():
 
 		*************************
 
-		where each multi-pg scrape contains tweets from a subperiod of the predefined window size
+		where each multi-pg scrape contains tweets from a subperiod of the predefined period
 
 		begin_date & end_date: date limits for the research results,
 								they have to be in the format of "YYYY-MM-DD"
