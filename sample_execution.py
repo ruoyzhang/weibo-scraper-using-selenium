@@ -5,6 +5,7 @@ import time
 
 username = 'insert_username'
 password = 'insert_password'
+headless = True
 
 begin_date = '2016-01-12'
 end_date = '2016-01-18'
@@ -20,7 +21,7 @@ save_dir = 'insert_dir'
 
 
 # initiation
-scrape_this = weibo_scraper(username=username, password=password)
+scrape_this = weibo_scraper(username=username, password=password, headless = headless)
 
 # login
 scrape_this.login_weibo()

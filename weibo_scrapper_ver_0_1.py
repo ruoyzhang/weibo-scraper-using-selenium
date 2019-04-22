@@ -19,6 +19,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import TimeoutException
 from math import floor
 from selenium.common.exceptions import StaleElementReferenceException
+from selenium.webdriver.chrome.options import Options
 
 #-------------------------------------------------------------------------------------
 # ||||||||||||||||||||||||||||||||||||||||||||||||
@@ -36,9 +37,10 @@ from selenium.common.exceptions import StaleElementReferenceException
 
 class weibo_scraper():
 
-	def __init__(self, username, password):
+	def __init__(self, username, password, headless = True):
 		"""
 		username & password: user authentication
+		headless: boolean, option, indicates to the class whether firefox should be run in headless mode
 		"""
 
 		# storing vars as class vars
@@ -54,8 +56,10 @@ class weibo_scraper():
 		self.tweets_so_far = []
 		self.dates_so_far = []
 
-		# setting up the driver as a class method I guess?
-		self.driver = webdriver.Firefox()
+		# setting up the driver as a class method and keep it in headless mode
+		options = webdriver.FirefoxOptions()
+		options.headless = headless
+		self.driver = webdriver.Firefox(firefox_options = options)
 
 #-------------------------------------------------------------------------------------
 	
